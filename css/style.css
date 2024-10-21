@@ -1,0 +1,393 @@
+/*# Empty CSS file for your own CSS*/
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.page-header{
+	border-bottom: none;
+/*	padding-bottom: 0px;*/
+	margin: 60px 0 20px 60px;
+}
+.page-header > h1
+{
+		font-size: 60px;
+		margin-bottom: 0px;
+/*		color: #337ab7;*/
+}
+
+.page-header > small
+{
+    color: #337ab7;
+		font-size: 22px;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		font-style: normal;
+		font-weight: 200;
+}
+
+.personal-details {
+	list-style: none;
+}
+
+.personal-details > li{
+/*	font-size: 20px;*/
+	padding: 5px 5px 5px 20px;
+}
+
+/*.personal-details  li i{
+	padding: 0px 10px 0px 0px;
+}
+*/
+.personal-details  li span {
+	font-size: 20px;
+	padding: 0px 10px 0px 0px;
+}
+
+.icon-blue {
+  color: #337ab7 !important;
+  margin: 0px 10px 0px 0px;
+}
+.at-the-rate
+{
+	margin-right: 5px !important;
+	float: left;
+}
+.profile-img
+{
+	/*border-radius: 50%;*/
+	height:200px;
+	width: 200px;
+	/*background: #337ab7;*/
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.block-title{
+	/*color: #337ab7;*/
+	border-bottom: 4px solid black;
+	display: inline-block;
+}
+.left-block
+{
+	margin-left: 60px;
+}
+
+.life-motto{
+
+}
+.life-motto p
+{
+	font-size: 22px;
+	color: #337ab7;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	left: 10%
+}
+
+.experience-list
+{
+  list-style: none;
+	padding-left: 0px;
+}
+.experience-list > li > h5
+{
+	font-size: 22px;
+	color: #337ab7;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.experience-list > li
+{
+	padding-bottom: 10px;
+}
+
+.experience-list > li > h5 > small
+{
+	/*font-size: 22px;*/
+	color: #0c0c0c;
+	/*font-family: "Comic Sans MS", cursive, sans-serif;
+	font-style: normal;
+	font-weight: 400;*/
+}
+
+.roles{
+	font-size: 16px;
+	padding: 0px 0px 25px 25px;
+}
+
+.experience-list > li p
+{
+   font-size: 18px;
+	 font-weight: 400;
+}
+
+.skills
+{
+
+}
+.strengths
+{
+
+}
+.skills > ul, .strengths > ul
+{
+	list-style: none;
+	padding-left: 0px;
+}
+.skills >ul > li > h5
+{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 22px;
+	color: #337ab7;
+}
+.rounded
+{
+	border-radius: 10px;
+}
+.strengths >ul > li > h4
+{
+	/*font-style: normal;
+	font-weight: 400;
+	font-size: 20px;*/
+	/*color: #337ab7;*/
+}
+
+.tech-tags
+{
+  list-style: none;
+	padding-left: 0px;
+}
+.tech-tags > li{
+	display: inline-block;
+	float: left;
+	margin: 3px;
+}
+
+.tech-tags > li > h3
+{
+    margin-top: 0px;
+}
+
+.responsibilities
+{
+
+}
+.responsibilities-list
+{
+	list-style-type: circle;
+	padding-left: 0px;
+	font-size: 16px;
+	padding: 0px 0px 0px 25px;
+}
+.languages-list
+{
+	list-style-type: none;
+	padding-left: 0px;
+}
+.languages-list
+{
+
+}
+.inspired-by-list
+{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.social
+{
+	list-style-type: none;
+	color: #7F8C8D;
+	font-size: 13px;
+}
+.social li {
+    /*background: none repeat scroll 0 0 #B5B5B5;
+    border: 2px solid #B5B5B5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;*/
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.social li a {
+    padding: 0 0 5px 0;
+    display: block;
+		/*color: #EDEFF1;*/
+}
+.social li a i {
+    /*font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;*/
+}
+.footer-bottom {
+    background: #E3E3E3;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.col-md-offset-right-1 {
+    margin-right: 8.33333333%;
+  }
+
+	i.fa {
+	  display: inline-block;
+	  border-radius: 60px;
+	  box-shadow: 0px 0px 2px #888;
+	  padding: 0.5em 0.6em;
+
+	}
+
+@media (max-width: 575px) {
+
+	.left-block {
+			margin-left: 25px;
+		}
+
+		.page-header{
+			border-bottom: none;
+		/*	padding-bottom: 0px;*/
+			margin: 30px 0 10px 25px;
+		}
+
+		.page-header > h1
+		{
+				font-size: 50px;
+				margin-bottom: 0px;
+		/*		color: #337ab7;*/
+		}
+
+
+		.life-motto, .skills, .technologies, .strengths, .languages, .inspired-by
+		{
+			margin-left: 25px;
+		}
+
+		.profile-img
+		{
+
+			height:150px;
+			width: 150px;
+
+		}
+
+		.personal-details{
+		   margin-bottom: 2px !important;
+		}
+
+		/*.personal-details  li i{
+			padding: 0px 10px 0px 0px;
+		}
+		*/
+		.personal-details  li span {
+			font-size: 18px;
+			padding: 0px 5px 0px 0px;
+		}
+
+    .no-pd{
+			margin-bottom: 2px !important;
+		}
+}
+
+/*Ref: https://v4-alpha.getbootstrap.com/layout/overview/*/
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+	.left-block {
+			margin-left: 25px;
+		}
+
+		.page-header{
+			border-bottom: none;
+		/*	padding-bottom: 0px;*/
+			margin: 30px 0 10px 25px;
+		}
+
+		.page-header > h1
+		{
+				font-size: 50px;
+				margin-bottom: 0px;
+		/*		color: #337ab7;*/
+		}
+
+
+		.life-motto, .skills, .technologies, .strengths, .languages, .inspired-by
+		{
+			margin-left: 25px;
+		}
+
+		.profile-img
+		{
+
+			height:150px;
+			width: 150px;
+
+		}
+
+		.personal-details{
+		   margin-bottom: 2px !important;
+			 padding-left: 10px;
+		}
+
+		/*.personal-details  li i{
+			padding: 0px 10px 0px 0px;
+		}
+		*/
+		.personal-details  li span {
+			font-size: 18px;
+			padding: 0px 5px 0px 0px;
+		}
+
+    .no-pd{
+			margin-bottom: 2px !important;
+		}
+}
+
+ /*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+
+	.left-block {
+			margin-left: 25px;
+		}
+
+		.life-motto, .skills, .technologies, .strengths, .languages, .inspired-by
+		{
+			margin-left: 25px;
+		}
+
+
+ }
+  /*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px)
+{
+	.page-header
+	{
+			border-bottom: none;
+			/* padding-bottom: 0px; */
+			margin: 10px 0 20px 60px;
+	}
+	h4{
+		font-size: 15px;
+	}
+	h1{
+		font-size: 30px;
+	}
+}
